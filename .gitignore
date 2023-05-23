@@ -1,0 +1,34 @@
+# Arquivos de compilação e arquivos gerados
+/target/
+/bin/
+/classes/
+*.class
+
+# Dependências geradas pelo Maven
+/.m2/
+/lib/
+
+# Logs
+/log/
+
+# Arquivos de configuração local
+.properties
+*.properties
+
+# Arquivos de build do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos de build do IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos do JUnit
+/target/surefire-reports/
+
+# Arquivos do Selenium WebDriver
+geckodriver.log
+chromedriver.log
